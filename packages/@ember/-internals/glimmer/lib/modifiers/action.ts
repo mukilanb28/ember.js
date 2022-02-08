@@ -246,6 +246,7 @@ class ActionModifierManager implements InternalModifierManager<ActionState, obje
 
     element.setAttribute('data-ember-action', '');
     element.setAttribute(`data-ember-action-${actionId}`, String(actionId));
+    element.setAttribute(`data-ember-actionsss-${actionId}`, String(actionId))
   }
 
   update(actionState: ActionState): void {
